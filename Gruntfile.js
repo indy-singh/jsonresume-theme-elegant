@@ -36,7 +36,7 @@ module.exports = function(grunt) {
                 cmd: "node render.js"
             },
             compile_pug: {
-                cmd: 'pug -c index.pug --out tpl && echo "module.exports = { renderResume: template };" >> ./tpl/index.js'
+                cmd: 'pug -c index.pug --out tpl && echo module.exports = { renderResume: template }; >> ./tpl/index.js'
             }
         },
         copy: {

@@ -1,0 +1,1 @@
+grunt exec:compile_pug && node serve
