@@ -1,1 +1,1 @@
-grunt exec:compile_pug && node serve
+grunt build && grunt exec:compile_pug && node serve
